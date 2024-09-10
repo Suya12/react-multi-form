@@ -1,0 +1,38 @@
+
+input {
+    border : 1px gainsboro solid;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.label-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.label-div span {
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+}
+/*---------------------공용 끝 ----------------------- */
+
+.step-3-select {
+    display: flex;
+    margin : 0;
+}
+
+.step-3-select input {
+    align-self: center;
+}
+

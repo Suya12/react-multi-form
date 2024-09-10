@@ -1,0 +1,38 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 각 요소 간의 간격 */
+}
+
+label {
+    margin-top: 10px; /* 각 label에 상단 여백 추가 */
+}
+
+.input-section {
+    height: 90%;
+    color: hsl(213, 96%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.input-section h1 {
+    margin: 0;
+}
+
+.input-section .button-div {
+    display: flex;
+    justify-content: space-between; /* Previous와 Next 버튼을 양쪽 끝에 배치 */
+}
+
+.input-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0.5px gainsboro solid;
+    border-radius: 1rem;
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+
+}

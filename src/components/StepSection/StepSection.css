@@ -1,0 +1,28 @@
+.step {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin : 10px;
+    padding: 10px;
+}
+
+.step button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.step h5 {
+    color: rgb(201, 201, 201);
+}
+
+.step-section {
+    height: 90%;
+    background-image: url('/public/assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
